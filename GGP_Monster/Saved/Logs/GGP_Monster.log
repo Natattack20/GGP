@@ -6672,3 +6672,845 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.10.13-00.03.01:379][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 8.60 sec)
 [2023.10.13-00.03.01:385][566]AssetCheck: New page: Asset Save: Test
 [2023.10.13-00.03.01:385][566]LogContentValidation: Display: Validating /Script/Engine.World /Game/Sandeep/Test.Test
+[2023.10.13-00.05.42:405][349]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.05.42:482][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Test" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.13-00.05.42:507][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.10.13-00.05.42:515][349]LogSavePackage: Moving output files for package: /Game/Sandeep/Test
+[2023.10.13-00.05.42:515][349]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Test16F59B664A087D3C43C5A991B0D5780B.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Test.umap'
+[2023.10.13-00.05.42:523][349]LogFileHelpers: Saving map 'Test' took 0.041
+[2023.10.13-00.05.42:530][349]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 8.72 sec)
+[2023.10.13-00.05.42:536][349]AssetCheck: New page: Asset Save: Test
+[2023.10.13-00.05.42:536][349]LogContentValidation: Display: Validating /Script/Engine.World /Game/Sandeep/Test.Test
+[2023.10.13-00.05.47:645][469]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.13-00.05.47:655][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.13-00.05.47:655][469]PIE: New page: PIE session: Test (13 Oct 2023, 02:05:47)
+[2023.10.13-00.05.47:655][469]LogPlayLevel: Creating play world package: /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.05.47:657][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002199s)
+[2023.10.13-00.05.47:657][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandeep/Test.Test to /Game/Sandeep/UEDPIE_0_Test.Test (0.002235s)
+[2023.10.13-00.05.47:657][469]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.05.47:657][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-00.05.47:657][469]LogAIModule: Creating AISystem for world Test
+[2023.10.13-00.05.47:658][469]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2023.10.13-00.05.47:685][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.10.13-00.05.47:686][469]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.10.13-00.05.47:686][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.13-00.05.47:686][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.13-00.05.47:686][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.13-00.05.47:686][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.13-00.05.47:686][469]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.13-00.05.47:686][469]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.13-00.05.47:686][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.13-00.05.47:686][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.13-00.05.47:686][469]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.13-00.05.47:686][469]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.13-00.05.47:686][469]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.13-00.05.47:688][469]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.13-00.05.47:710][469]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.10.13-00.05.47:710][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.13-00.05.47:710][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.13-00.05.47:710][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.13-00.05.47:711][469]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.10.13-00.05.47:711][469]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.10.13-00.05.47:713][469]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.10.13-00.05.47:713][469]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.10.13-00.05.47:713][469]LogInit: FAudioDevice initialized with ID 29.
+[2023.10.13-00.05.47:713][469]LogAudio: Display: Audio Device (ID: 29) registered with world 'Test'.
+[2023.10.13-00.05.47:713][469]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2023.10.13-00.05.47:716][469]LogLoad: Game class is 'Test_Game_C'
+[2023.10.13-00.05.47:717][469]LogWorld: Bringing World /Game/Sandeep/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2023.10.13-01.05.47
+[2023.10.13-00.05.47:717][469]LogWorld: Bringing up level for play took: 0.000660
+[2023.10.13-00.05.47:719][469]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2023.10.13-00.05.47:720][469]PIE: Server logged in
+[2023.10.13-00.05.47:720][469]PIE: Play in editor total start time 0.066 seconds.
+[2023.10.13-00.05.47:745][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:745][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:746][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:746][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:746][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:748][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:748][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:748][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:749][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:749][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:750][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:750][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:750][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:751][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:751][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:751][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:752][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:752][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:752][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:753][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:753][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:753][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.05.47:754][469]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:767][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.12.47:767][300]LogWorld: BeginTearingDown for /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.12.47:767][300]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-00.12.47:767][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.12.47:789][300]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.13-00.12.47:793][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.12.47:822][300]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.13-00.12.47:822][300]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2023.10.13-00.12.47:822][300]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.10.13-00.12.47:824][300]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.10.13-00.12.47:831][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.12.47:833][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.10.13-00.12.47:848][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:848][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:849][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:849][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:850][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:850][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:851][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:851][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:852][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:853][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:853][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:854][300]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.12.47:860][301]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2023.10.13-00.13.42:677][739]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.13.42:748][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.10.13-00.13.44:164][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.13.44:285][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.13.44:295][886]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.13.44:296][886]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_P289756F748D8E7D702118FBCE61BDB03.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.13.44:304][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 8.86 sec)
+[2023.10.13-00.13.44:310][886]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.13.44:310][886]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.13.58:802][596]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.13.58:880][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.10.13-00.14.00:796][813]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.14.00:924][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.14.00:934][813]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.14.00:934][813]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_P68678E3B4760C941810AF09CA251BA7F.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.14.00:943][813]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 9.01 sec)
+[2023.10.13-00.14.00:948][813]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.14.00:948][813]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.14.09:915][839]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.14.09:984][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.10.13-00.14.10:924][939]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.14.11:052][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.14.11:062][939]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.14.11:062][939]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_PF25E695F4F3FA9CDB85ECF83FF897CD8.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.14.11:071][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 9.15 sec)
+[2023.10.13-00.14.11:078][939]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.14.11:078][939]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.14.44:360][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.14.44:361][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.15.03:101][843]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.13-00.15.03:109][843]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.10.13-00.15.03:115][843]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.10.13-00.15.03:124][844]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.10.13-00.15.20:606][506]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Enemy
+[2023.10.13-00.15.20:613][506]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.10.13-00.15.23:574][603]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy
+[2023.10.13-00.15.23:575][603]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.15.23:575][603]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-00.15.23:711][603]LogViewport: Scene viewport resized to 953x700, mode Windowed.
+[2023.10.13-00.15.49:270][314]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.T_UELogo_Mask (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.10.13-00.15.49:274][314]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.T_ML_Aluminum01_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2023.10.13-00.15.49:277][314]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.10.13-00.15.49:278][314]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2023.10.13-00.15.49:279][314]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.T_ML_Aluminum01 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.10.13-00.15.49:324][314]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Mannequin) ...
+[2023.10.13-00.15.49:348][314]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2023.10.13-00.15.49:463][314]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/Characters/Mannequin_UE4/Meshes/SK_Mannequin.SK_Mannequin
+[2023.10.13-00.15.49:468][314]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.T_UELogo_N_TGA (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2023.10.13-00.15.49:480][314]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.T_UE4_Mannequin_MAT_MASKA (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.10.13-00.15.49:614][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.15.49:615][314]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.T_UE4_Mannequin__normals (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: ================================================
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Total job queries 839, among them cache hits 77 (9.18%)
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Tracking 747 distinct input hashes that result in 431 distinct outputs (57.70%)
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: RAM used: 17.87 MiB of 819.20 MiB budget. Usage: 2.18%
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Shaders Compiled: 747
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Jobs assigned 755, completed 747 (98.94%)
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Average time worker was idle: 286.52 s
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Time job spent in pending queue: average 4.66 s, longest 33.85 s
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Job execution time: average 4.99 s, max 15.87 s
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Job life time (pending + execution): average 9.69 s, max 35.20
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 137.42 s
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Jobs were issued in 490 batches (only local compilation was used), average 1.54 jobs/batch
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Average processing rate: 5.44 jobs/sec
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Total thread time: 861.633 s
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Total thread preprocess time: 26.973 s
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Percentage time preprocessing: 3.13%
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Effective parallelization: 6.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    5 times, average 1.56 sec, max 2.51 sec, min 1.19 sec)
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    5 times, average 1.52 sec, max 2.42 sec, min 1.13 sec)
+[2023.10.13-00.15.51:043][402]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    7 times, average 1.51 sec, max 2.08 sec, min 1.12 sec)
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   43 times, average 1.48 sec, max 1.95 sec, min 1.03 sec)
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    7 times, average 1.48 sec, max 2.09 sec, min 1.13 sec)
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.94% of total time (compiled  144 times, average 1.25 sec, max 2.10 sec, min 0.52 sec)
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.89% of total time (compiled  145 times, average 1.24 sec, max 2.07 sec, min 0.51 sec)
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.41% of total time (compiled   43 times, average 1.48 sec, max 1.95 sec, min 1.03 sec)
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.01% of total time (compiled   41 times, average 1.47 sec, max 2.27 sec, min 0.84 sec)
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.57% of total time (compiled   40 times, average 1.20 sec, max 1.44 sec, min 0.84 sec)
+[2023.10.13-00.15.51:044][402]LogShaderCompilers: Display: ================================================
+[2023.10.13-00.15.53:398][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.17.36:300][106]BlueprintLog: New page: Compile BP_Enemy
+[2023.10.13-00.17.36:401][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.10.13-00.17.37:107][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.17.37:208][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.17.37:232][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Enemy" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Enemy.uasset" SILENT=true
+[2023.10.13-00.17.37:236][172]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Enemy
+[2023.10.13-00.17.37:236][172]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Enemy40EC6F76411113A930FC37951895ECB0.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Enemy.uasset'
+[2023.10.13-00.17.37:247][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 9.29 sec)
+[2023.10.13-00.17.37:253][172]AssetCheck: New page: Asset Save: BP_Enemy
+[2023.10.13-00.17.37:253][172]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy
+[2023.10.13-00.17.46:429][866]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy_C
+[2023.10.13-00.17.46:429][866]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy_C
+[2023.10.13-00.17.46:430][866]LogActorFactory: Actor Factory spawned Blueprint /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy as actor: BP_Enemy_C /Game/Sandeep/Test.Test:PersistentLevel.BP_Enemy_C_0
+[2023.10.13-00.17.46:431][866]LogActorFactory: Actor Factory spawned Blueprint /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy as actor: BP_Enemy_C /Game/Sandeep/Test.Test:PersistentLevel.BP_Enemy_C_0
+[2023.10.13-00.17.49:058][ 13]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy_C
+[2023.10.13-00.17.49:058][ 13]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy_C
+[2023.10.13-00.17.49:060][ 13]LogActorFactory: Actor Factory spawned Blueprint /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy as actor: BP_Enemy_C /Game/Sandeep/Test.Test:PersistentLevel.BP_Enemy_C_1
+[2023.10.13-00.17.49:061][ 13]LogActorFactory: Actor Factory spawned Blueprint /Game/Sandeep/Projectiles/BP_Enemy.BP_Enemy as actor: BP_Enemy_C /Game/Sandeep/Test.Test:PersistentLevel.BP_Enemy_C_1
+[2023.10.13-00.17.49:169][ 13]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.20.28:583][207]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.10.13-00.20.28:583][207]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.10.13-00.21.03:501][390]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.10.13-00.26.36:361][ 90]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.26.36:430][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.10.13-00.26.37:557][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.26.37:667][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.26.37:680][153]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.26.37:680][153]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_P198521F44F2B1C53ED6D4E8AC07ADF96.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.26.37:689][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 9.42 sec)
+[2023.10.13-00.26.37:696][153]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.26.37:696][153]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.28.04:012][307]BlueprintLog: New page: Compile BP_P_Ice
+[2023.10.13-00.28.04:068][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.10.13-00.28.04:834][351]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.28.04:836][351]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.28.45:241][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.29.01:016][538]BlueprintLog: New page: Compile BP_P_Ice
+[2023.10.13-00.29.01:074][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.10.13-00.29.01:659][563]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.29.01:766][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_P_Ice" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Ice.uasset" SILENT=true
+[2023.10.13-00.29.01:770][563]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_P_Ice
+[2023.10.13-00.29.01:770][563]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_P_IceB73F48EA4C1A593320D855A922576656.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Ice.uasset'
+[2023.10.13-00.29.01:780][563]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 9.55 sec)
+[2023.10.13-00.29.01:785][563]AssetCheck: New page: Asset Save: BP_P_Ice
+[2023.10.13-00.29.01:787][563]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_P_Ice.BP_P_Ice
+[2023.10.13-00.29.29:021][179]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.29.53:115][120]LogSlate: Window 'Outliner 2' being destroyed
+[2023.10.13-00.29.53:128][120]LogSlate: Window 'Outliner 2' being destroyed
+[2023.10.13-00.29.54:665][168]LogViewport: Scene viewport resized to 681x421, mode Windowed.
+[2023.10.13-00.29.54:714][168]LogViewport: Scene viewport resized to 681x421, mode Windowed.
+[2023.10.13-00.29.54:738][168]LogViewport: Scene viewport resized to 681x421, mode Windowed.
+[2023.10.13-00.29.54:786][168]LogViewport: Scene viewport resized to 825x510, mode Windowed.
+[2023.10.13-00.29.54:813][169]LogViewport: Scene viewport resized to 681x421, mode Windowed.
+[2023.10.13-00.30.07:275][854]Cmd: SELECT NONE
+[2023.10.13-00.30.07:890][881]Cmd: SELECT NONE
+[2023.10.13-00.30.08:488][915]Cmd: SELECT NONE
+[2023.10.13-00.30.10:472][ 23]Cmd: SELECT NONE
+[2023.10.13-00.30.12:092][115]Cmd: SELECT NONE
+[2023.10.13-00.30.12:805][153]Cmd: SELECT NONE
+[2023.10.13-00.30.19:901][543]LogViewport: Scene viewport resized to 681x422, mode Windowed.
+[2023.10.13-00.30.19:937][543]LogViewport: Scene viewport resized to 681x420, mode Windowed.
+[2023.10.13-00.30.19:942][543]LogViewport: Scene viewport resized to 681x422, mode Windowed.
+[2023.10.13-00.30.19:966][543]LogViewport: Scene viewport resized to 681x420, mode Windowed.
+[2023.10.13-00.30.19:999][545]LogViewport: Scene viewport resized to 681x412, mode Windowed.
+[2023.10.13-00.30.20:009][545]LogViewport: Scene viewport resized to 681x430, mode Windowed.
+[2023.10.13-00.30.20:016][545]LogViewport: Scene viewport resized to 681x412, mode Windowed.
+[2023.10.13-00.30.20:039][545]LogViewport: Scene viewport resized to 681x430, mode Windowed.
+[2023.10.13-00.30.20:073][547]LogViewport: Scene viewport resized to 681x401, mode Windowed.
+[2023.10.13-00.30.20:082][547]LogViewport: Scene viewport resized to 681x441, mode Windowed.
+[2023.10.13-00.30.20:088][547]LogViewport: Scene viewport resized to 681x401, mode Windowed.
+[2023.10.13-00.30.20:107][547]LogViewport: Scene viewport resized to 681x441, mode Windowed.
+[2023.10.13-00.30.20:155][550]LogViewport: Scene viewport resized to 681x385, mode Windowed.
+[2023.10.13-00.30.20:164][550]LogViewport: Scene viewport resized to 681x457, mode Windowed.
+[2023.10.13-00.30.20:169][550]LogViewport: Scene viewport resized to 681x385, mode Windowed.
+[2023.10.13-00.30.20:194][550]LogViewport: Scene viewport resized to 681x457, mode Windowed.
+[2023.10.13-00.30.20:244][553]LogViewport: Scene viewport resized to 681x371, mode Windowed.
+[2023.10.13-00.30.20:251][553]LogViewport: Scene viewport resized to 681x471, mode Windowed.
+[2023.10.13-00.30.20:256][553]LogViewport: Scene viewport resized to 681x371, mode Windowed.
+[2023.10.13-00.30.20:280][553]LogViewport: Scene viewport resized to 681x471, mode Windowed.
+[2023.10.13-00.30.20:312][555]LogViewport: Scene viewport resized to 681x358, mode Windowed.
+[2023.10.13-00.30.20:321][555]LogViewport: Scene viewport resized to 681x484, mode Windowed.
+[2023.10.13-00.30.20:325][555]LogViewport: Scene viewport resized to 681x358, mode Windowed.
+[2023.10.13-00.30.20:345][555]LogViewport: Scene viewport resized to 681x484, mode Windowed.
+[2023.10.13-00.30.20:378][557]LogViewport: Scene viewport resized to 681x312, mode Windowed.
+[2023.10.13-00.30.20:387][557]LogViewport: Scene viewport resized to 681x530, mode Windowed.
+[2023.10.13-00.30.20:392][557]LogViewport: Scene viewport resized to 681x312, mode Windowed.
+[2023.10.13-00.30.20:414][557]LogViewport: Scene viewport resized to 681x530, mode Windowed.
+[2023.10.13-00.30.20:463][560]LogViewport: Scene viewport resized to 681x248, mode Windowed.
+[2023.10.13-00.30.20:471][560]LogViewport: Scene viewport resized to 681x594, mode Windowed.
+[2023.10.13-00.30.20:477][560]LogViewport: Scene viewport resized to 681x248, mode Windowed.
+[2023.10.13-00.30.20:501][560]LogViewport: Scene viewport resized to 681x594, mode Windowed.
+[2023.10.13-00.30.20:551][563]LogViewport: Scene viewport resized to 681x188, mode Windowed.
+[2023.10.13-00.30.20:561][563]LogViewport: Scene viewport resized to 681x654, mode Windowed.
+[2023.10.13-00.30.20:565][563]LogViewport: Scene viewport resized to 681x188, mode Windowed.
+[2023.10.13-00.30.20:589][563]LogViewport: Scene viewport resized to 681x654, mode Windowed.
+[2023.10.13-00.30.20:639][566]LogViewport: Scene viewport resized to 681x152, mode Windowed.
+[2023.10.13-00.30.20:646][566]LogViewport: Scene viewport resized to 681x690, mode Windowed.
+[2023.10.13-00.30.20:651][566]LogViewport: Scene viewport resized to 681x152, mode Windowed.
+[2023.10.13-00.30.20:675][566]LogViewport: Scene viewport resized to 681x690, mode Windowed.
+[2023.10.13-00.30.21:604][622]LogViewport: Scene viewport resized to 681x141, mode Windowed.
+[2023.10.13-00.30.21:726][622]LogViewport: Scene viewport resized to 681x701, mode Windowed.
+[2023.10.13-00.30.21:739][622]LogViewport: Scene viewport resized to 681x141, mode Windowed.
+[2023.10.13-00.30.21:784][622]LogViewport: Scene viewport resized to 681x701, mode Windowed.
+[2023.10.13-00.30.21:851][626]LogViewport: Scene viewport resized to 681x159, mode Windowed.
+[2023.10.13-00.30.21:859][626]LogViewport: Scene viewport resized to 681x683, mode Windowed.
+[2023.10.13-00.30.21:865][626]LogViewport: Scene viewport resized to 681x159, mode Windowed.
+[2023.10.13-00.30.21:892][626]LogViewport: Scene viewport resized to 681x683, mode Windowed.
+[2023.10.13-00.30.21:949][629]LogViewport: Scene viewport resized to 681x179, mode Windowed.
+[2023.10.13-00.30.21:959][629]LogViewport: Scene viewport resized to 681x663, mode Windowed.
+[2023.10.13-00.30.21:964][629]LogViewport: Scene viewport resized to 681x179, mode Windowed.
+[2023.10.13-00.30.21:991][629]LogViewport: Scene viewport resized to 681x663, mode Windowed.
+[2023.10.13-00.30.22:194][641]LogViewport: Scene viewport resized to 681x199, mode Windowed.
+[2023.10.13-00.30.22:202][641]LogViewport: Scene viewport resized to 681x643, mode Windowed.
+[2023.10.13-00.30.22:208][641]LogViewport: Scene viewport resized to 681x199, mode Windowed.
+[2023.10.13-00.30.22:236][641]LogViewport: Scene viewport resized to 681x643, mode Windowed.
+[2023.10.13-00.30.22:302][644]LogViewport: Scene viewport resized to 681x223, mode Windowed.
+[2023.10.13-00.30.22:313][644]LogViewport: Scene viewport resized to 681x619, mode Windowed.
+[2023.10.13-00.30.22:318][644]LogViewport: Scene viewport resized to 681x223, mode Windowed.
+[2023.10.13-00.30.22:344][644]LogViewport: Scene viewport resized to 681x619, mode Windowed.
+[2023.10.13-00.30.24:101][736]LogViewport: Scene viewport resized to 682x223, mode Windowed.
+[2023.10.13-00.30.24:113][736]LogViewport: Scene viewport resized to 682x619, mode Windowed.
+[2023.10.13-00.30.24:119][736]LogViewport: Scene viewport resized to 680x223, mode Windowed.
+[2023.10.13-00.30.24:146][736]LogViewport: Scene viewport resized to 680x619, mode Windowed.
+[2023.10.13-00.30.24:170][737]LogViewport: Scene viewport resized to 699x223, mode Windowed.
+[2023.10.13-00.30.24:179][737]LogViewport: Scene viewport resized to 699x619, mode Windowed.
+[2023.10.13-00.30.24:184][737]LogViewport: Scene viewport resized to 663x223, mode Windowed.
+[2023.10.13-00.30.24:203][737]LogViewport: Scene viewport resized to 663x619, mode Windowed.
+[2023.10.13-00.30.24:252][740]LogViewport: Scene viewport resized to 735x223, mode Windowed.
+[2023.10.13-00.30.24:260][740]LogViewport: Scene viewport resized to 735x619, mode Windowed.
+[2023.10.13-00.30.24:265][740]LogViewport: Scene viewport resized to 627x223, mode Windowed.
+[2023.10.13-00.30.24:304][740]LogViewport: Scene viewport resized to 627x619, mode Windowed.
+[2023.10.13-00.30.24:336][742]LogViewport: Scene viewport resized to 798x223, mode Windowed.
+[2023.10.13-00.30.24:344][742]LogViewport: Scene viewport resized to 798x619, mode Windowed.
+[2023.10.13-00.30.24:349][742]LogViewport: Scene viewport resized to 564x223, mode Windowed.
+[2023.10.13-00.30.24:370][742]LogViewport: Scene viewport resized to 564x619, mode Windowed.
+[2023.10.13-00.30.24:427][745]LogViewport: Scene viewport resized to 820x223, mode Windowed.
+[2023.10.13-00.30.24:434][745]LogViewport: Scene viewport resized to 820x619, mode Windowed.
+[2023.10.13-00.30.24:440][745]LogViewport: Scene viewport resized to 542x223, mode Windowed.
+[2023.10.13-00.30.24:470][745]LogViewport: Scene viewport resized to 542x619, mode Windowed.
+[2023.10.13-00.30.24:519][748]LogViewport: Scene viewport resized to 920x223, mode Windowed.
+[2023.10.13-00.30.24:527][748]LogViewport: Scene viewport resized to 920x619, mode Windowed.
+[2023.10.13-00.30.24:533][748]LogViewport: Scene viewport resized to 442x223, mode Windowed.
+[2023.10.13-00.30.24:562][748]LogViewport: Scene viewport resized to 442x619, mode Windowed.
+[2023.10.13-00.30.24:592][749]LogViewport: Scene viewport resized to 1047x223, mode Windowed.
+[2023.10.13-00.30.24:602][749]LogViewport: Scene viewport resized to 1047x619, mode Windowed.
+[2023.10.13-00.30.24:607][749]LogViewport: Scene viewport resized to 315x223, mode Windowed.
+[2023.10.13-00.30.24:632][749]LogViewport: Scene viewport resized to 315x619, mode Windowed.
+[2023.10.13-00.30.24:664][751]LogViewport: Scene viewport resized to 1129x223, mode Windowed.
+[2023.10.13-00.30.24:674][751]LogViewport: Scene viewport resized to 1129x619, mode Windowed.
+[2023.10.13-00.30.24:679][751]LogViewport: Scene viewport resized to 233x223, mode Windowed.
+[2023.10.13-00.30.24:700][751]LogViewport: Scene viewport resized to 233x619, mode Windowed.
+[2023.10.13-00.30.24:762][755]LogViewport: Scene viewport resized to 1137x223, mode Windowed.
+[2023.10.13-00.30.24:771][755]LogViewport: Scene viewport resized to 1137x619, mode Windowed.
+[2023.10.13-00.30.24:777][755]LogViewport: Scene viewport resized to 225x223, mode Windowed.
+[2023.10.13-00.30.24:808][755]LogViewport: Scene viewport resized to 225x619, mode Windowed.
+[2023.10.13-00.30.25:258][782]LogViewport: Scene viewport resized to 1141x223, mode Windowed.
+[2023.10.13-00.30.25:394][782]LogViewport: Scene viewport resized to 1141x619, mode Windowed.
+[2023.10.13-00.30.25:499][782]LogViewport: Scene viewport resized to 221x223, mode Windowed.
+[2023.10.13-00.30.25:546][782]LogViewport: Scene viewport resized to 221x619, mode Windowed.
+[2023.10.13-00.30.25:665][789]LogViewport: Scene viewport resized to 1144x223, mode Windowed.
+[2023.10.13-00.30.25:682][789]LogViewport: Scene viewport resized to 1144x619, mode Windowed.
+[2023.10.13-00.30.25:689][789]LogViewport: Scene viewport resized to 218x223, mode Windowed.
+[2023.10.13-00.30.25:720][789]LogViewport: Scene viewport resized to 218x619, mode Windowed.
+[2023.10.13-00.30.25:756][791]LogViewport: Scene viewport resized to 1204x223, mode Windowed.
+[2023.10.13-00.30.25:766][791]LogViewport: Scene viewport resized to 1204x619, mode Windowed.
+[2023.10.13-00.30.25:773][791]LogViewport: Scene viewport resized to 158x223, mode Windowed.
+[2023.10.13-00.30.25:823][791]LogViewport: Scene viewport resized to 158x619, mode Windowed.
+[2023.10.13-00.30.25:867][793]LogViewport: Scene viewport resized to 1230x223, mode Windowed.
+[2023.10.13-00.30.25:876][793]LogViewport: Scene viewport resized to 1230x619, mode Windowed.
+[2023.10.13-00.30.25:882][793]LogViewport: Scene viewport resized to 132x223, mode Windowed.
+[2023.10.13-00.30.25:905][793]LogViewport: Scene viewport resized to 132x619, mode Windowed.
+[2023.10.13-00.30.25:938][795]LogViewport: Scene viewport resized to 1244x223, mode Windowed.
+[2023.10.13-00.30.25:947][795]LogViewport: Scene viewport resized to 1244x619, mode Windowed.
+[2023.10.13-00.30.25:953][795]LogViewport: Scene viewport resized to 118x223, mode Windowed.
+[2023.10.13-00.30.25:973][795]LogViewport: Scene viewport resized to 118x619, mode Windowed.
+[2023.10.13-00.30.25:998][796]LogViewport: Scene viewport resized to 1258x223, mode Windowed.
+[2023.10.13-00.30.26:012][796]LogViewport: Scene viewport resized to 1258x619, mode Windowed.
+[2023.10.13-00.30.26:016][796]LogViewport: Scene viewport resized to 104x223, mode Windowed.
+[2023.10.13-00.30.26:053][796]LogViewport: Scene viewport resized to 104x619, mode Windowed.
+[2023.10.13-00.30.26:095][798]LogViewport: Scene viewport resized to 1304x223, mode Windowed.
+[2023.10.13-00.30.26:109][798]LogViewport: Scene viewport resized to 1304x619, mode Windowed.
+[2023.10.13-00.30.26:113][798]LogViewport: Scene viewport resized to 58x223, mode Windowed.
+[2023.10.13-00.30.26:193][798]LogViewport: Scene viewport resized to 58x619, mode Windowed.
+[2023.10.13-00.30.26:236][800]LogViewport: Scene viewport resized to 1316x223, mode Windowed.
+[2023.10.13-00.30.26:248][800]LogViewport: Scene viewport resized to 1316x619, mode Windowed.
+[2023.10.13-00.30.26:254][800]LogViewport: Scene viewport resized to 46x223, mode Windowed.
+[2023.10.13-00.30.26:306][800]LogViewport: Scene viewport resized to 46x619, mode Windowed.
+[2023.10.13-00.30.26:365][803]LogViewport: Scene viewport resized to 1337x223, mode Windowed.
+[2023.10.13-00.30.26:376][803]LogViewport: Scene viewport resized to 1337x619, mode Windowed.
+[2023.10.13-00.30.26:383][803]LogViewport: Scene viewport resized to 24x223, mode Windowed.
+[2023.10.13-00.30.26:420][803]LogViewport: Scene viewport resized to 24x619, mode Windowed.
+[2023.10.13-00.30.27:091][843]LogViewport: Scene viewport resized to 1335x223, mode Windowed.
+[2023.10.13-00.30.27:269][843]LogViewport: Scene viewport resized to 1335x619, mode Windowed.
+[2023.10.13-00.30.27:281][843]LogViewport: Scene viewport resized to 27x223, mode Windowed.
+[2023.10.13-00.30.27:355][843]LogViewport: Scene viewport resized to 27x619, mode Windowed.
+[2023.10.13-00.30.27:384][844]LogViewport: Scene viewport resized to 1319x223, mode Windowed.
+[2023.10.13-00.30.27:393][844]LogViewport: Scene viewport resized to 1319x619, mode Windowed.
+[2023.10.13-00.30.27:398][844]LogViewport: Scene viewport resized to 43x223, mode Windowed.
+[2023.10.13-00.30.27:420][844]LogViewport: Scene viewport resized to 43x619, mode Windowed.
+[2023.10.13-00.30.27:457][846]LogViewport: Scene viewport resized to 1276x223, mode Windowed.
+[2023.10.13-00.30.27:464][846]LogViewport: Scene viewport resized to 1276x619, mode Windowed.
+[2023.10.13-00.30.27:470][846]LogViewport: Scene viewport resized to 86x223, mode Windowed.
+[2023.10.13-00.30.27:490][846]LogViewport: Scene viewport resized to 86x619, mode Windowed.
+[2023.10.13-00.30.27:528][848]LogViewport: Scene viewport resized to 1221x223, mode Windowed.
+[2023.10.13-00.30.27:535][848]LogViewport: Scene viewport resized to 1221x619, mode Windowed.
+[2023.10.13-00.30.27:542][848]LogViewport: Scene viewport resized to 141x223, mode Windowed.
+[2023.10.13-00.30.27:563][848]LogViewport: Scene viewport resized to 141x619, mode Windowed.
+[2023.10.13-00.30.27:602][849]LogViewport: Scene viewport resized to 1196x223, mode Windowed.
+[2023.10.13-00.30.27:610][849]LogViewport: Scene viewport resized to 1196x619, mode Windowed.
+[2023.10.13-00.30.27:615][849]LogViewport: Scene viewport resized to 166x223, mode Windowed.
+[2023.10.13-00.30.27:635][849]LogViewport: Scene viewport resized to 166x619, mode Windowed.
+[2023.10.13-00.30.30:181][949]LogViewport: Scene viewport resized to 1254x696, mode Windowed.
+[2023.10.13-00.30.30:210][950]LogViewport: Scene viewport resized to 1315x777, mode Windowed.
+[2023.10.13-00.30.30:367][951]LogViewport: Scene viewport resized to 1368x848, mode Windowed.
+[2023.10.13-00.30.36:667][141]Cmd: SELECT NONE
+[2023.10.13-00.30.44:134][450]LogDerivedDataCache: C:/Users/black/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.103 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1913 files in 3047 folders with total size 126 MiB.
+[2023.10.13-00.30.48:624][654]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.48:624][654]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.48:625][654]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.48:663][655]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.53:398][825]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.54:008][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.54:008][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.54:009][841]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.54:058][842]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.30.54:141][843]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.09:398][292]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.13-00.31.09:449][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.13-00.31.09:449][292]PIE: New page: PIE session: Test (13 Oct 2023, 02:31:09)
+[2023.10.13-00.31.09:449][292]LogPlayLevel: Creating play world package: /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.31.09:452][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002576s)
+[2023.10.13-00.31.09:452][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandeep/Test.Test to /Game/Sandeep/UEDPIE_0_Test.Test (0.002610s)
+[2023.10.13-00.31.09:452][292]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.31.09:452][292]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-00.31.09:452][292]LogAIModule: Creating AISystem for world Test
+[2023.10.13-00.31.09:453][292]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2023.10.13-00.31.09:482][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.10.13-00.31.09:483][292]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.10.13-00.31.09:483][292]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.13-00.31.09:483][292]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.13-00.31.09:483][292]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.13-00.31.09:483][292]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.13-00.31.09:483][292]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.13-00.31.09:483][292]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.13-00.31.09:483][292]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.13-00.31.09:483][292]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.13-00.31.09:484][292]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.13-00.31.09:484][292]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.13-00.31.09:484][292]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.13-00.31.09:486][292]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.13-00.31.09:511][292]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.10.13-00.31.09:511][292]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.13-00.31.09:511][292]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.13-00.31.09:511][292]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.13-00.31.09:513][292]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.10.13-00.31.09:513][292]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2023.10.13-00.31.09:514][292]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.10.13-00.31.09:514][292]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.10.13-00.31.09:514][292]LogInit: FAudioDevice initialized with ID 30.
+[2023.10.13-00.31.09:514][292]LogAudio: Display: Audio Device (ID: 30) registered with world 'Test'.
+[2023.10.13-00.31.09:514][292]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2023.10.13-00.31.09:518][292]LogLoad: Game class is 'Test_Game_C'
+[2023.10.13-00.31.09:519][292]LogWorld: Bringing World /Game/Sandeep/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2023.10.13-01.31.09
+[2023.10.13-00.31.09:563][292]LogWorld: Bringing up level for play took: 0.045301
+[2023.10.13-00.31.09:565][292]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2023.10.13-00.31.09:580][292]PIE: Server logged in
+[2023.10.13-00.31.09:581][292]PIE: Play in editor total start time 0.132 seconds.
+[2023.10.13-00.31.09:628][292]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.09:629][292]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.09:629][292]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.09:630][292]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.09:630][292]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.09:631][292]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.09:632][292]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.12:399][316]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.12:400][316]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.14:996][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.31.14:996][373]LogWorld: BeginTearingDown for /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.31.15:055][373]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-00.31.15:056][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.31.15:059][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.13-00.31.15:064][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.31.15:093][373]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.13-00.31.15:093][373]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2023.10.13-00.31.15:093][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.10.13-00.31.15:096][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.10.13-00.31.15:101][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.31.15:120][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.10.13-00.31.15:155][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.15:157][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.15:157][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.15:158][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.15:158][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.15:160][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.15:175][374]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.10.13-00.31.17:594][421]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.13-00.31.17:601][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.13-00.31.17:601][421]PIE: New page: PIE session: Test (13 Oct 2023, 02:31:17)
+[2023.10.13-00.31.17:601][421]LogPlayLevel: Creating play world package: /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.31.17:605][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002876s)
+[2023.10.13-00.31.17:605][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandeep/Test.Test to /Game/Sandeep/UEDPIE_0_Test.Test (0.002927s)
+[2023.10.13-00.31.17:605][421]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.31.17:605][421]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-00.31.17:605][421]LogAIModule: Creating AISystem for world Test
+[2023.10.13-00.31.17:605][421]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2023.10.13-00.31.17:635][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.10.13-00.31.17:637][421]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2023.10.13-00.31.17:637][421]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.13-00.31.17:637][421]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.13-00.31.17:637][421]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.13-00.31.17:637][421]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.13-00.31.17:637][421]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.13-00.31.17:637][421]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.13-00.31.17:637][421]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.13-00.31.17:637][421]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.13-00.31.17:638][421]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.13-00.31.17:638][421]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.13-00.31.17:638][421]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.13-00.31.17:641][421]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.13-00.31.17:665][421]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.10.13-00.31.17:666][421]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.13-00.31.17:666][421]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.13-00.31.17:666][421]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.13-00.31.17:667][421]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2023.10.13-00.31.17:667][421]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2023.10.13-00.31.17:669][421]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2023.10.13-00.31.17:669][421]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2023.10.13-00.31.17:669][421]LogInit: FAudioDevice initialized with ID 31.
+[2023.10.13-00.31.17:669][421]LogAudio: Display: Audio Device (ID: 31) registered with world 'Test'.
+[2023.10.13-00.31.17:669][421]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2023.10.13-00.31.17:672][421]LogLoad: Game class is 'Test_Game_C'
+[2023.10.13-00.31.17:673][421]LogWorld: Bringing World /Game/Sandeep/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2023.10.13-01.31.17
+[2023.10.13-00.31.17:674][421]LogWorld: Bringing up level for play took: 0.001350
+[2023.10.13-00.31.17:676][421]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2023.10.13-00.31.17:677][421]PIE: Server logged in
+[2023.10.13-00.31.17:678][421]PIE: Play in editor total start time 0.077 seconds.
+[2023.10.13-00.31.17:697][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.17:698][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.17:698][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.17:699][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.17:699][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.17:699][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.17:701][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.19:011][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.20:022][447]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.21:975][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.31.21:975][498]LogWorld: BeginTearingDown for /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.31.21:977][498]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-00.31.21:977][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.31.22:011][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.13-00.31.22:015][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.31.22:044][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.31.22:045][498]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2023.10.13-00.31.22:045][498]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.10.13-00.31.22:047][498]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.10.13-00.31.22:053][498]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.10.13-00.31.22:065][498]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.22:066][498]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.22:066][498]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.22:067][498]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.22:067][498]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.22:069][498]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.31.22:084][499]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.10.13-00.32.02:042][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.10.13-00.32.02:043][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Test" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Autosaves/Game/Sandeep/Test_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.10.13-00.32.02:051][661]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sandeep/Test_Auto7
+[2023.10.13-00.32.02:051][661]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Test_Auto744B002524AFE73429208CA8E731E8D26.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Autosaves/Game/Sandeep/Test_Auto7.umap'
+[2023.10.13-00.32.02:062][661]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sandeep/Test' took 0.050
+[2023.10.13-00.32.02:062][661]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
+[2023.10.13-00.33.13:309][795]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.13:310][795]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.13:310][795]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.13:311][795]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.18:490][949]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.13-00.33.18:498][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.13-00.33.18:498][949]PIE: New page: PIE session: Test (13 Oct 2023, 02:33:18)
+[2023.10.13-00.33.18:498][949]LogPlayLevel: Creating play world package: /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.33.18:502][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003443s)
+[2023.10.13-00.33.18:502][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandeep/Test.Test to /Game/Sandeep/UEDPIE_0_Test.Test (0.003486s)
+[2023.10.13-00.33.18:502][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.33.18:502][949]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-00.33.18:502][949]LogAIModule: Creating AISystem for world Test
+[2023.10.13-00.33.18:503][949]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2023.10.13-00.33.18:534][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.10.13-00.33.18:536][949]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2023.10.13-00.33.18:536][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.13-00.33.18:536][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.13-00.33.18:536][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.13-00.33.18:536][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.13-00.33.18:536][949]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.13-00.33.18:536][949]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.13-00.33.18:536][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.13-00.33.18:536][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.13-00.33.18:537][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.13-00.33.18:537][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.13-00.33.18:537][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.13-00.33.18:540][949]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.13-00.33.18:568][949]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.10.13-00.33.18:568][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.13-00.33.18:568][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.13-00.33.18:568][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.13-00.33.18:570][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2023.10.13-00.33.18:570][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2023.10.13-00.33.18:572][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2023.10.13-00.33.18:572][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2023.10.13-00.33.18:572][949]LogInit: FAudioDevice initialized with ID 32.
+[2023.10.13-00.33.18:572][949]LogAudio: Display: Audio Device (ID: 32) registered with world 'Test'.
+[2023.10.13-00.33.18:572][949]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2023.10.13-00.33.18:575][949]LogLoad: Game class is 'Test_Game_C'
+[2023.10.13-00.33.18:576][949]LogWorld: Bringing World /Game/Sandeep/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2023.10.13-01.33.18
+[2023.10.13-00.33.18:576][949]LogWorld: Bringing up level for play took: 0.001710
+[2023.10.13-00.33.18:578][949]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2023.10.13-00.33.18:580][949]PIE: Server logged in
+[2023.10.13-00.33.18:580][949]PIE: Play in editor total start time 0.085 seconds.
+[2023.10.13-00.33.18:609][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.18:609][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.18:610][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.18:610][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.18:611][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.18:612][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.18:612][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.24:416][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.33.24:416][ 96]LogWorld: BeginTearingDown for /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.33.24:416][ 96]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-00.33.24:417][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.33.24:476][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.13-00.33.24:481][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.33.24:512][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.33.24:512][ 96]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2023.10.13-00.33.24:512][ 96]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.10.13-00.33.24:515][ 96]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.10.13-00.33.24:523][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.10.13-00.33.24:536][ 96]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.24:537][ 96]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.24:537][ 96]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.24:538][ 96]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.24:538][ 96]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.24:540][ 96]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.24:540][ 96]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.33.24:590][ 97]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2023.10.13-00.40.52:315][415]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.40.52:385][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.10.13-00.41.10:123][458]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.41.10:189][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.10.13-00.41.11:092][505]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.41.11:227][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.41.11:240][505]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.41.11:240][505]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_PA4C2FBB449B834D2D6BFCC962FB90EDF.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.41.11:250][505]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 9.70 sec)
+[2023.10.13-00.41.11:256][505]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.41.11:256][505]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.41.15:463][750]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.41.15:531][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.10.13-00.41.16:138][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.41.16:265][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.41.16:279][782]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.41.16:279][782]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_PD83DDC1B4FE76E82E5C0608D8E4D5CAE.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.41.16:287][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 9.85 sec)
+[2023.10.13-00.41.16:293][782]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.41.16:293][782]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.41.17:210][837]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.31:532][513]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.31:577][514]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.31:578][514]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.55:189][229]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.13-00.41.55:195][229]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.13-00.41.55:195][229]LogPlayLevel: [PlayLevel] Compiling BP_P_Ice before play...
+[2023.10.13-00.41.55:263][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.10.13-00.41.55:265][229]LogPlayLevel: PlayLevel: Blueprint regeneration took 70 ms (1 blueprints)
+[2023.10.13-00.41.55:265][229]PIE: New page: PIE session: Test (13 Oct 2023, 02:41:55)
+[2023.10.13-00.41.55:265][229]LogPlayLevel: Creating play world package: /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.41.55:267][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002704s)
+[2023.10.13-00.41.55:267][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandeep/Test.Test to /Game/Sandeep/UEDPIE_0_Test.Test (0.002740s)
+[2023.10.13-00.41.55:267][229]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.41.55:268][229]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-00.41.55:268][229]LogAIModule: Creating AISystem for world Test
+[2023.10.13-00.41.55:268][229]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2023.10.13-00.41.55:297][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.10.13-00.41.55:298][229]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.10.13-00.41.55:298][229]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.13-00.41.55:298][229]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.13-00.41.55:298][229]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.13-00.41.55:298][229]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.13-00.41.55:298][229]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.13-00.41.55:298][229]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.13-00.41.55:298][229]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.13-00.41.55:298][229]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.13-00.41.55:299][229]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.13-00.41.55:299][229]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.13-00.41.55:299][229]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.13-00.41.55:301][229]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.13-00.41.55:327][229]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.10.13-00.41.55:328][229]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.13-00.41.55:328][229]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.13-00.41.55:328][229]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.13-00.41.55:329][229]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2023.10.13-00.41.55:329][229]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2023.10.13-00.41.55:331][229]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2023.10.13-00.41.55:331][229]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2023.10.13-00.41.55:331][229]LogInit: FAudioDevice initialized with ID 33.
+[2023.10.13-00.41.55:331][229]LogAudio: Display: Audio Device (ID: 33) registered with world 'Test'.
+[2023.10.13-00.41.55:331][229]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2023.10.13-00.41.55:334][229]LogLoad: Game class is 'Test_Game_C'
+[2023.10.13-00.41.55:335][229]LogWorld: Bringing World /Game/Sandeep/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2023.10.13-01.41.55
+[2023.10.13-00.41.55:335][229]LogWorld: Bringing up level for play took: 0.001385
+[2023.10.13-00.41.55:337][229]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.10.13-00.41.55:338][229]PIE: Server logged in
+[2023.10.13-00.41.55:339][229]PIE: Play in editor total start time 0.145 seconds.
+[2023.10.13-00.41.55:367][229]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.55:368][229]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.55:368][229]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.55:369][229]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.55:369][229]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.55:369][229]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.55:371][229]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.41.57:992][266]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.42.03:846][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.42.03:846][443]LogWorld: BeginTearingDown for /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.42.03:846][443]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-00.42.03:846][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.42.03:864][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.13-00.42.03:869][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.42.03:896][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.42.03:896][443]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2023.10.13-00.42.03:896][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.10.13-00.42.03:898][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.10.13-00.42.03:906][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.10.13-00.42.03:927][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.42.03:928][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.42.03:928][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.42.03:929][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.42.03:929][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.42.03:931][443]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.42.03:946][444]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.10.13-00.43.57:565][ 19]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.43.57:634][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.10.13-00.43.58:927][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.43.59:040][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.43.59:053][ 92]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.43.59:053][ 92]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_P59E1F78A449B70A2CC1911B9E871BAD6.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.43.59:062][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 9.99 sec)
+[2023.10.13-00.43.59:069][ 92]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.43.59:069][ 92]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.43.59:813][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.43.59:814][137]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.26:720][938]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.13-00.44.26:729][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.13-00.44.26:729][938]PIE: New page: PIE session: Test (13 Oct 2023, 02:44:26)
+[2023.10.13-00.44.26:729][938]LogPlayLevel: Creating play world package: /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.44.26:731][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002464s)
+[2023.10.13-00.44.26:731][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandeep/Test.Test to /Game/Sandeep/UEDPIE_0_Test.Test (0.002495s)
+[2023.10.13-00.44.26:731][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-00.44.26:731][938]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-00.44.26:732][938]LogAIModule: Creating AISystem for world Test
+[2023.10.13-00.44.26:732][938]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2023.10.13-00.44.26:763][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.10.13-00.44.26:764][938]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.10.13-00.44.26:764][938]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.13-00.44.26:764][938]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.13-00.44.26:764][938]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.13-00.44.26:764][938]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.13-00.44.26:764][938]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.13-00.44.26:764][938]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.13-00.44.26:764][938]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.13-00.44.26:764][938]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.13-00.44.26:765][938]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.13-00.44.26:765][938]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.13-00.44.26:765][938]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.13-00.44.26:766][938]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.13-00.44.26:789][938]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.10.13-00.44.26:789][938]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.13-00.44.26:789][938]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.13-00.44.26:789][938]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.13-00.44.26:791][938]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.10.13-00.44.26:791][938]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2023.10.13-00.44.26:792][938]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.10.13-00.44.26:792][938]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.10.13-00.44.26:792][938]LogInit: FAudioDevice initialized with ID 34.
+[2023.10.13-00.44.26:792][938]LogAudio: Display: Audio Device (ID: 34) registered with world 'Test'.
+[2023.10.13-00.44.26:792][938]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2023.10.13-00.44.26:796][938]LogLoad: Game class is 'Test_Game_C'
+[2023.10.13-00.44.26:796][938]LogWorld: Bringing World /Game/Sandeep/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2023.10.13-01.44.26
+[2023.10.13-00.44.26:797][938]LogWorld: Bringing up level for play took: 0.001358
+[2023.10.13-00.44.26:799][938]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.10.13-00.44.26:800][938]PIE: Server logged in
+[2023.10.13-00.44.26:800][938]PIE: Play in editor total start time 0.072 seconds.
+[2023.10.13-00.44.26:827][938]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.26:827][938]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.26:828][938]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.26:828][938]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.26:829][938]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.26:829][938]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.26:830][938]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.28:726][972]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.30:747][ 26]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.30:925][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.44.30:925][ 30]LogWorld: BeginTearingDown for /Game/Sandeep/UEDPIE_0_Test
+[2023.10.13-00.44.30:925][ 30]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-00.44.30:925][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.44.30:961][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.13-00.44.30:967][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-00.44.30:995][ 30]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.13-00.44.30:995][ 30]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2023.10.13-00.44.30:995][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.10.13-00.44.30:997][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.10.13-00.44.31:002][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-00.44.31:005][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.10.13-00.44.31:123][ 30]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.31:125][ 30]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.31:125][ 30]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.31:126][ 30]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.31:126][ 30]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.31:127][ 30]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.44.31:141][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.10.13-00.44.59:421][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.10.13-00.44.59:423][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Test" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Autosaves/Game/Sandeep/Test_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.10.13-00.44.59:430][870]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sandeep/Test_Auto8
+[2023.10.13-00.44.59:430][870]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Test_Auto8FFBC18D54B7A210C87DB4FACA1ADEC6C.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Autosaves/Game/Sandeep/Test_Auto8.umap'
+[2023.10.13-00.44.59:441][870]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Sandeep/Test' took 0.049
+[2023.10.13-00.44.59:441][870]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
+[2023.10.13-00.44.59:441][870]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Sandeep/Projectiles/BP_P_Fire] ([2] browsable assets)...
+[2023.10.13-00.44.59:468][870]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sandeep/Projectiles/BP_P_Fire.BP_P_Fire]
+[2023.10.13-00.44.59:468][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sandeep/Projectiles/BP_P_Fire]
+[2023.10.13-00.44.59:473][870]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sandeep/Projectiles/BP_P_Fire_Auto8
+[2023.10.13-00.44.59:473][870]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_P_Fire_Auto89E4C67994BAD878242E9C88F38E3A034.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Autosaves/Game/Sandeep/Projectiles/BP_P_Fire_Auto8.uasset'
+[2023.10.13-00.44.59:473][870]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Sandeep/Projectiles/BP_P_Ice] ([2] browsable assets)...
+[2023.10.13-00.44.59:483][870]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Sandeep/Projectiles/BP_P_Ice.BP_P_Ice]
+[2023.10.13-00.44.59:483][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sandeep/Projectiles/BP_P_Ice]
+[2023.10.13-00.44.59:488][870]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sandeep/Projectiles/BP_P_Ice_Auto8
+[2023.10.13-00.44.59:488][870]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_P_Ice_Auto8B2D3C82C4B6A6A5845B9DBAEA53C8C74.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/Autosaves/Game/Sandeep/Projectiles/BP_P_Ice_Auto8.uasset'
+[2023.10.13-00.44.59:488][870]LogFileHelpers: Auto-saving content packages took 0.047
+[2023.10.13-00.48.08:171][904]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.48.08:243][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.10.13-00.48.10:229][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.48.10:357][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.48.10:419][ 13]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.48.10:419][ 13]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_PD5F682724C67516583E7F0B9BB28EE16.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.48.10:427][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 10.1 sec)
+[2023.10.13-00.48.10:433][ 13]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.48.10:433][ 13]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.49.23:938][411]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.49.24:011][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.10.13-00.49.24:773][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.49.24:894][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.49.24:910][449]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.49.24:910][449]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_P22163BDC4AD187E97F4E3DA60891E756.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.49.24:918][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 10.3 sec)
+[2023.10.13-00.49.24:923][449]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.49.24:923][449]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.51.45:563][825]BlueprintLog: New page: Compile BP_Base_P
+[2023.10.13-00.51.45:635][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.10.13-00.51.46:427][866]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-00.51.46:539][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_Base_P" FILE="../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset" SILENT=true
+[2023.10.13-00.51.46:555][866]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_Base_P
+[2023.10.13-00.51.46:555][866]LogSavePackage: Moving '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Saved/BP_Base_PE1954CE348326F80ED94EA86FCD2DB60.tmp' to '../../../../../Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset'
+[2023.10.13-00.51.46:564][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 10.4 sec)
+[2023.10.13-00.51.46:570][866]AssetCheck: New page: Asset Save: BP_Base_P
+[2023.10.13-00.51.46:570][866]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
+[2023.10.13-00.51.49:415][ 37]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.13-00.51.49:416][ 37]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
