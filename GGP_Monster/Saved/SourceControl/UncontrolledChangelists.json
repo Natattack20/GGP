@@ -5,7 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< HEAD
 				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/Menu/MainMenu/MainMenu_Level.umap",
+=======
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/ProjectileWeaponData.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/ProjectileWeapons.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/WeaponData.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/Weapons.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Test.umap",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Fire.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset",
+>>>>>>> main
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/FXVarietyPack/Map/Overview.umap",
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/FXVarietyPack/Blueprints/BP_ky_aquaStorm.uasset",
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/FXVarietyPack/Blueprints/BP_ky_darkStorm.uasset",
