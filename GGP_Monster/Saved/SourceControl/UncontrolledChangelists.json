@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/ItemSystem-Yifan/ItemEntity_BP.uasset",
+				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/BaseItem.uasset",
+				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/ActiveItem.uasset",
+				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/PassiveItem.uasset",
+				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Slot/ActiveItemSlot.uasset",
 				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/Nathan/OneDrive/Documents/Github/GGP/GGP_Monster/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/Nathan/OneDrive/Documents/Github/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
