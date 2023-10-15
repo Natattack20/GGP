@@ -15191,3 +15191,4 @@ Script Stack (0 frames) :
 [2023.10.15-22.29.31:162][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
 [2023.10.15-22.32.55:298][287]LogSlate: Window 'Output Log' being destroyed
 [2023.10.15-22.32.55:315][287]LogSlate: Window 'Output Log' being destroyed
+[2023.10.15-22.40.25:252][ 59]LogViewport: Scene viewport resized to 1171x726, mode Windowed.
