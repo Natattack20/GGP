@@ -15226,3 +15226,200 @@ Script Stack (0 frames) :
 [2023.10.15-22.42.37:629][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
 [2023.10.15-22.43.56:991][272]LogViewport: Scene viewport resized to 1557x784, mode Windowed.
 [2023.10.15-22.43.59:166][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.10.15-22.45.20:914][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.15-22.45.21:057][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.15-22.45.21:075][ 41]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Sandeep/Test.Test
+[2023.10.15-22.45.21:076][ 41]Cmd: MAP LOAD FILE="../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/Sandeep/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.15-22.45.21:076][ 41]LightingResults: New page: Lighting Build
+[2023.10.15-22.45.21:093][ 41]LoadErrors: New page: Loading map: Test.umap
+[2023.10.15-22.45.21:099][ 41]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.15-22.45.21:099][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.15-22.45.21:104][ 41]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.15-22.45.21:105][ 41]MapCheck: New page: Map Check
+[2023.10.15-22.45.21:105][ 41]LightingResults: New page: Lighting Build
+[2023.10.15-22.45.21:118][ 41]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.15-22.45.21:124][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.10.15-22.45.21:129][ 41]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.15-22.45.21:129][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.15-22.45.21:144][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.10.15-22.45.21:161][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.10.15-22.45.21:171][ 41]LogAudio: Display: Audio Device (ID: 1) registered with world 'Test'.
+[2023.10.15-22.45.21:171][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.15-22.45.21:171][ 41]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.15-22.45.21:171][ 41]LogAIModule: Creating AISystem for world Test
+[2023.10.15-22.45.21:229][ 41]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.15-22.45.21:245][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.10.15-22.45.21:249][ 41]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.15-22.45.21:250][ 41]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.23ms to complete.
+[2023.10.15-22.45.21:250][ 41]LogFileHelpers: Loading map 'Test' took 0.175
+[2023.10.15-22.45.21:278][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:280][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:280][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:280][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:280][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:280][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:281][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:281][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:281][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:281][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:282][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:282][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.21:282][ 41]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:548][113]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.15-22.45.22:553][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.15-22.45.22:553][113]PIE: New page: PIE session: Test (Oct 16, 2023, 12:45:22 AM)
+[2023.10.15-22.45.22:553][113]LogPlayLevel: Creating play world package: /Game/Sandeep/UEDPIE_0_Test
+[2023.10.15-22.45.22:555][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001551s)
+[2023.10.15-22.45.22:555][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Sandeep/Test.Test to /Game/Sandeep/UEDPIE_0_Test.Test (0.001584s)
+[2023.10.15-22.45.22:555][113]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.15-22.45.22:555][113]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.15-22.45.22:556][113]LogAIModule: Creating AISystem for world Test
+[2023.10.15-22.45.22:556][113]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2023.10.15-22.45.22:571][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.10.15-22.45.22:574][113]LogAudio: Display: Creating Audio Device:                 Id: 83, Scope: Unique, Realtime: True
+[2023.10.15-22.45.22:574][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.15-22.45.22:574][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.15-22.45.22:574][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.15-22.45.22:574][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.15-22.45.22:574][113]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.15-22.45.22:574][113]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.15-22.45.22:574][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.15-22.45.22:574][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.15-22.45.22:574][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.15-22.45.22:574][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.15-22.45.22:574][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.15-22.45.22:575][113]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.15-22.45.22:616][113]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Astro MixAmp Pro Game)
+[2023.10.15-22.45.22:616][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.15-22.45.22:616][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.15-22.45.22:616][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.15-22.45.22:616][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=83
+[2023.10.15-22.45.22:616][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=6, Samples=6144, InstanceID=83
+[2023.10.15-22.45.22:618][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=83
+[2023.10.15-22.45.22:618][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=83
+[2023.10.15-22.45.22:618][113]LogInit: FAudioDevice initialized with ID 83.
+[2023.10.15-22.45.22:618][113]LogAudio: Display: Audio Device (ID: 83) registered with world 'Test'.
+[2023.10.15-22.45.22:618][113]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 83
+[2023.10.15-22.45.22:620][113]LogLoad: Game class is 'Test_Game_C'
+[2023.10.15-22.45.22:621][113]LogWorld: Bringing World /Game/Sandeep/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2023.10.15-23.45.22
+[2023.10.15-22.45.22:633][113]LogWorld: Bringing up level for play took: 0.012087
+[2023.10.15-22.45.22:634][113]LogOnline: OSS: Created online subsystem instance for: :Context_110
+[2023.10.15-22.45.22:636][113]PIE: Server logged in
+[2023.10.15-22.45.22:638][113]PIE: Play in editor total start time 0.084 seconds.
+[2023.10.15-22.45.22:664][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:665][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:665][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:665][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:666][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:666][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:666][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:667][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:667][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:667][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:667][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:668][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:668][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.22:668][113]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.24:310][208]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.26:325][329]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:035][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.15-22.45.27:036][370]LogWorld: BeginTearingDown for /Game/Sandeep/UEDPIE_0_Test
+[2023.10.15-22.45.27:036][370]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.15-22.45.27:036][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.15-22.45.27:039][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.15-22.45.27:040][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.15-22.45.27:053][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.15-22.45.27:053][370]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 83
+[2023.10.15-22.45.27:053][370]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
+[2023.10.15-22.45.27:055][370]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
+[2023.10.15-22.45.27:060][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.10.15-22.45.27:072][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:072][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:072][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:073][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:073][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:073][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:073][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:073][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:074][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:074][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:074][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:074][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:075][370]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.45.27:117][373]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2023.10.15-22.46.13:523][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.10.15-22.46.13:575][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.15-22.46.13:576][555]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.10.15-22.46.13:576][555]Cmd: MAP LOAD FILE="../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.15-22.46.13:576][555]LightingResults: New page: Lighting Build
+[2023.10.15-22.46.13:576][555]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2023.10.15-22.46.13:625][555]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2023.10.15-22.46.13:625][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.15-22.46.13:625][555]MapCheck: New page: Map Check
+[2023.10.15-22.46.13:625][555]LightingResults: New page: Lighting Build
+[2023.10.15-22.46.13:639][555]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.15-22.46.13:641][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.10.15-22.46.13:643][555]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.15-22.46.13:643][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.15-22.46.13:660][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.10.15-22.46.13:675][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.10.15-22.46.13:681][555]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2023.10.15-22.46.13:681][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.15-22.46.13:681][555]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.15-22.46.13:682][555]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.15-22.46.13:682][555]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.10.15-22.46.13:682][555]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.15-22.46.13:682][555]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.15-22.46.13:726][555]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.15-22.46.13:726][555]LogWorldPartition: Display: WorldPartition initialize took 44 ms (total: 298 ms)
+[2023.10.15-22.46.13:752][555]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.15-22.46.13:768][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.15-22.46.13:776][555]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.15-22.46.13:777][555]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.38ms to complete.
+[2023.10.15-22.46.13:777][555]LogFileHelpers: Loading map 'ThirdPersonMap' took 0.200
+[2023.10.15-22.46.13:851][555]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.46.19:425][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.10.15-22.46.20:423][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.46.24:227][170]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.46.27:360][357]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.46.28:725][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.46.33:156][701]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.46.34:759][797]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.46.49:281][662]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.46.52:048][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.47.03:828][522]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.47.06:362][666]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.15-22.47.11:068][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.15-22.47.11:097][946]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DL/ZKM1XZFFBO61KA4ZY8256S
+[2023.10.15-22.47.11:097][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/ZKM1XZFFBO61KA4ZY8256SCD5D1D054091C011D846A2AC00BE8C25.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DL/ZKM1XZFFBO61KA4ZY8256S.uasset'
+[2023.10.15-22.47.11:098][946]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/1Q/3MMLZV2JQBJ13AF8F54BFA
+[2023.10.15-22.47.11:099][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/3MMLZV2JQBJ13AF8F54BFA7F65F60343DCD5BC1F6A93A2D0544B4F.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/1Q/3MMLZV2JQBJ13AF8F54BFA.uasset'
+[2023.10.15-22.47.11:100][946]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/2P/BSW8VEV21FYIMO5EOM31HP
+[2023.10.15-22.47.11:101][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/BSW8VEV21FYIMO5EOM31HP188ABBA547B4D3AC470876AC0E10C59F.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/2P/BSW8VEV21FYIMO5EOM31HP.uasset'
+[2023.10.15-22.47.11:102][946]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/05/N629FMVTQX6BP7EI4SE6NQ
+[2023.10.15-22.47.11:102][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/N629FMVTQX6BP7EI4SE6NQ49986C8C48AACDB3D624E6AF6074A18E.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/05/N629FMVTQX6BP7EI4SE6NQ.uasset'
+[2023.10.15-22.47.11:104][946]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/SM/N496OVOLDLT18EVB00X21V
+[2023.10.15-22.47.11:105][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/N496OVOLDLT18EVB00X21V425C4D194C0372F1320D81AB76680086.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/SM/N496OVOLDLT18EVB00X21V.uasset'
+[2023.10.15-22.47.11:106][946]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/FC/B0VX4GWAPRSPEG62VZCPPJ
+[2023.10.15-22.47.11:106][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/B0VX4GWAPRSPEG62VZCPPJDC01AA414DC9D6C80B81A3A65A9C91DF.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/FC/B0VX4GWAPRSPEG62VZCPPJ.uasset'
+[2023.10.15-22.47.11:110][946]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/Q9/V3BNNJMTDHKSU21515HRLX
+[2023.10.15-22.47.11:111][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/V3BNNJMTDHKSU21515HRLX75CC2DF14D7FDD6E5A2F889F2182BD27.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/Q9/V3BNNJMTDHKSU21515HRLX.uasset'
+[2023.10.15-22.47.11:112][946]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/OI/TTLQDUWKUOD9XNYLLXGJ0U
+[2023.10.15-22.47.11:112][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/TTLQDUWKUOD9XNYLLXGJ0UCACCEE724AD5536E17C5A797E7B59D3A.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/OI/TTLQDUWKUOD9XNYLLXGJ0U.uasset'
+[2023.10.15-22.47.11:114][946]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/0/36/KCXACSMVJ4OT7DDSXX1VIE
+[2023.10.15-22.47.11:114][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/KCXACSMVJ4OT7DDSXX1VIEA8E8EFC842F7123B12824C918DFEBECD.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/0/36/KCXACSMVJ4OT7DDSXX1VIE.uasset'
+[2023.10.15-22.47.11:115][946]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/B/UA/DJB4YQG79U80DHZ94HR5EP
+[2023.10.15-22.47.11:115][946]LogSavePackage: Moving '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Saved/DJB4YQG79U80DHZ94HR5EP70CC424044C49078B56897B5E54F85DA.tmp' to '../../../../../UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/B/UA/DJB4YQG79U80DHZ94HR5EP.uasset'
+[2023.10.15-22.47.11:126][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 15.0 sec)
+[2023.10.15-22.47.11:129][946]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_CA0B5C93-4F0F8732-8575BB97-7ECA2CF6
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_E4635FA0-44B057AE-2371D683-53EB3859
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_53E9ADDD-45F196FC-B66B9CA9-E6AEC91F
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Game/_Yifan/ItemSystem/_ActiveItems/BP_UnlimitedStaminaPotion.BP_UnlimitedStaminaPotion_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_UnlimitedStaminaPotion_C_UAID_08BFB8C0262FEDB201_2050116841
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Game/_Yifan/ItemSystem/_PassiveItems/BP_PItem_MaxHealthPotion.BP_PItem_MaxHealthPotion_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PItem_MaxHealthPotion_C_UAID_08BFB8C0262FF3B201_1654816902
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Game/_Yifan/ItemSystem/_PassiveItems/BP_PItem_MaxHealthPotion.BP_PItem_MaxHealthPotion_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PItem_MaxHealthPotion_C_UAID_08BFB8C0262FF3B201_1647197900
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Game/_Yifan/ItemSystem/_PassiveItems/BP_PItem_HealthRecoveryPotion.BP_PItem_HealthRecoveryPotion_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PItem_HealthRecoveryPotion_C_UAID_08BFB8C0262FF3B201_1650911901
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Game/_Yifan/ItemSystem/_PassiveItems/BP_PItem_MaxHealthPotion.BP_PItem_MaxHealthPotion_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PItem_MaxHealthPlus_C_UAID_08BFB8C0262FF0B201_1712857370
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Game/_Yifan/ItemSystem/_ActiveItems/BP_DestroyBurst.BP_DestroyBurst_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_DestroyBurst_C_UAID_08BFB8C0262FEAB201_1673867312
+[2023.10.15-22.47.11:129][946]LogContentValidation: Display: Validating /Game/_Yifan/ItemSystem/_PassiveItems/BP_PItem_HealthRecoveryPotion.BP_PItem_HealthRecoveryPotion_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PItem_HealthRecoveryPotion_C_UAID_08BFB8C0262FF3B201_1642513899
+[2023.10.15-22.47.13:324][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
