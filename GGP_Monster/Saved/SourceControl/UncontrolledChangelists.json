@@ -5,6 +5,24 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/WeaponData.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/Weapons.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Test.umap",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Fire.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset",
+				"C:/Users/Nathan/OneDrive/Documents/Github/GGP/GGP_Monster/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/Nathan/OneDrive/Documents/Github/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/55/2HG79G5RHWWJ8VT2N1ST1V.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/2P/BSW8VEV21FYIMO5EOM31HP.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/Q9/V3BNNJMTDHKSU21515HRLX.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/_Yifan/ItemSystem/BP_ActiveItemBase.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/_Yifan/ItemSystem/ActiveItemStruct.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/Chest/BP_Chest.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/_Yifan/ItemSystem/DT_ActiveItems.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/_Yifan/ItemSystem/BP_PassiveItemBase.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/_Yifan/ItemSystem/PassiveItemStruct.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/_Yifan/ItemSystem/DT_PassiveItems.uasset",
 				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/Menu/HUD/WB_HUD.uasset",
 				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ZiyuanTest/HealthTest.uasset",
@@ -73,11 +91,6 @@
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/OS/ZZ2WH0VCLUPHCTGCGDO1JE.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/ProjectileWeaponData.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/ProjectileWeapons.uasset",
-				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/WeaponData.uasset",
-				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/Weapons.uasset",
-				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Test.umap",
-				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Fire.uasset",
-				"F:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Base_P.uasset",
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/FXVarietyPack/Map/Overview.umap",
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/FXVarietyPack/Blueprints/BP_ky_aquaStorm.uasset",
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/FXVarietyPack/Blueprints/BP_ky_darkStorm.uasset",
@@ -556,9 +569,7 @@
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Enemy.uasset",
 				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/ZiyuanTest/HealthTest.uasset",
-				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/4H/M5U74QUIVUNO0EICJMATJT.uasset",
-				"C:/Users/Nathan/OneDrive/Documents/Github/GGP/GGP_Monster/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Users/Nathan/OneDrive/Documents/Github/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/4H/M5U74QUIVUNO0EICJMATJT.uasset"
 			]
 		}
 	]
