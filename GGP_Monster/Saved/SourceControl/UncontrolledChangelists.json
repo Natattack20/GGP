@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/Menu/HUD/WB_HUD.uasset",
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ZiyuanTest/HealthTest.uasset",
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/4H/M5U74QUIVUNO0EICJMATJT.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/BaseItemData.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/ItemDataTable.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Icons/icon_potion-medicine_LP.uasset",
