@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/ZiyuanTest/HealthTest.uasset",
+				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/4H/M5U74QUIVUNO0EICJMATJT.uasset",
+				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/ZiyuanTest/BP_AIEnemy/BP_SelfDestruct.uasset",
 				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/Menu/HUD/WB_HUD.uasset",
 				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ZiyuanTest/HealthTest.uasset",
@@ -554,9 +558,6 @@
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Fire.uasset",
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Ice.uasset",
 				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_Enemy.uasset",
-				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/ZiyuanTest/HealthTest.uasset",
-				"C:/Users/Elvis/Documents/GitHub/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/4H/M5U74QUIVUNO0EICJMATJT.uasset",
 				"C:/Users/Nathan/OneDrive/Documents/Github/GGP/GGP_Monster/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/Nathan/OneDrive/Documents/Github/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
