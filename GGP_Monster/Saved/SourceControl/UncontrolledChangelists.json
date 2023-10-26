@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/MSI-NB/Documents/GitHub/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/BP_increaseStamina.uasset",
+				"C:/Users/MSI-NB/Documents/GitHub/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/BP_Staminabooster.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/BP_ActiveItemBase.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_ActiveItems/BP_DestroyBurst.uasset",
