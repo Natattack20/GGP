@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/Menu/HUD/WB_HUD.uasset",
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"D:/Github Repos/GGP/GGP_Monster/Content/Destruction/FS_MasterField.uasset",
 				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/WK/F1Y3TWJR4JQNI6W2IIUDRO.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
@@ -71,7 +73,6 @@
 				"F:/Github Repos/GGP/GGP_Monster/Content/Destruction/SM_ChamferCube_GeometryCollection.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/Destruction/NewBlueprint.uasset",
 				"C:/UnrealEngine/UE_5.2/Engine/Content/BasicShapes/BasicShapeMaterial.uasset",
-				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/Menu/HUD/WB_HUD.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/8V/866M3AJQB8TFEIODJAJRLU.uasset"
 			]
 		}
