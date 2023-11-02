@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< HEAD
+=======
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/Menu/HUD/WB_HUD.uasset",
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/Menu/HUD/WB_PausedWidget.uasset",
+				"C:/Users/FxfBance/Desktop/Advanced Mission Design/Advanced Mission Design_Unreal/GGP/GGP_Monster/Content/ThirdPerson/Input/IMC_Default.uasset",
+>>>>>>> UI
 				"D:/Github Repos/GGP/GGP_Monster/Content/Destruction/FS_MasterField.uasset",
 				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/WK/F1Y3TWJR4JQNI6W2IIUDRO.uasset",
 				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/55/2HG79G5RHWWJ8VT2N1ST1V.uasset",
