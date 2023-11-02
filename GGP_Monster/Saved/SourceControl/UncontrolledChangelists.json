@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Github Repos/GGP/GGP_Monster/Content/Destruction/FS_MasterField.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/WK/F1Y3TWJR4JQNI6W2IIUDRO.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/BP_ActiveItemBase.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_ActiveItems/BP_DestroyBurst.uasset",
