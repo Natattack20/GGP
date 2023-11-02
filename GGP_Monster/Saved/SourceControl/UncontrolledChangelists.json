@@ -5,7 +5,18 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"D:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/BP_PassiveItem_DamageReduction.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/Instance/Instance.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/_Yifan/ItemSystem/DT_PassiveItems.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/55/2HG79G5RHWWJ8VT2N1ST1V.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/WK/F1Y3TWJR4JQNI6W2IIUDRO.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/6O/MV2JUGL8E1QC5BURGQP3KE.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/3T/9VUAD9DLYZR2C7QI1BK5HQ.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/4N/W6LGHSWX62CRLGHCTB3FJM.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QD/CJZVP4U2TIQTIBDYERGE1I.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/WI/QFUZ78LPWJX94O9DKNH00R.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/13/ET1DW0G2ZF4T7N8IYJUDWX.uasset"
 			]
 		}
 	]
