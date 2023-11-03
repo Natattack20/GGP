@@ -1597,3 +1597,46 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.03-01.06.18:129][258]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2023.11.03-01.06.23:452][403]LogSlate: Window 'Message Log' being destroyed
 [2023.11.03-01.06.23:458][403]LogSlate: Window 'Message Log' being destroyed
+[2023.11.03-01.07.26:038][744]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.03-01.07.37:484][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-01.07.46:047][364]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-01.07.53:379][581]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/PickupWeapon.PickupWeapon
+[2023.11.03-01.07.53:429][581]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-01.07.53:430][581]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.03-01.07.55:383][581]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.11.03-01.08.04:103][581]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049965s
+[2023.11.03-01.08.05:722][581]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.000735s (1.667203s overbudget)
+[2023.11.03-01.08.05:759][581]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-01.08.06:170][581]LogSlate: Took 0.014764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: ================================================
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Total job queries 93, among them cache hits 23 (24.73%)
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Tracking 70 distinct input hashes that result in 63 distinct outputs (90.00%)
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: RAM used: 1.65 MiB of 819.20 MiB budget. Usage: 0.20%
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Shaders Compiled: 20
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100.00%)
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Average time worker was idle: 40.21 s
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Time job spent in pending queue: average 0.28 s, longest 1.24 s
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Job execution time: average 1.54 s, max 2.97 s
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Job life time (pending + execution): average 1.81 s, max 3.03
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.97 s
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Average processing rate: 3.35 jobs/sec
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Total thread time: 17.746 s
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Total thread preprocess time: 0.834 s
+[2023.11.03-01.08.06:703][582]LogShaderCompilers: Display: Percentage time preprocessing: 4.70%
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display: Effective parallelization: 2.97 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 1.04 sec, max 1.04 sec, min 1.04 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 1.02 sec, max 1.34 sec, min 0.61 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.92 sec, max 1.24 sec, min 0.56 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.82 sec, max 0.82 sec, min 0.82 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 0.75 sec, max 0.82 sec, min 0.63 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 34.64% of total time (compiled    6 times, average 1.02 sec, max 1.34 sec, min 0.61 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 31.21% of total time (compiled    6 times, average 0.92 sec, max 1.24 sec, min 0.56 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                                  FHitProxyVS - 12.76% of total time (compiled    3 times, average 0.75 sec, max 0.82 sec, min 0.63 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                                  FHitProxyPS - 10.87% of total time (compiled    3 times, average 0.64 sec, max 0.70 sec, min 0.57 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.87% of total time (compiled    1 times, average 1.04 sec, max 1.04 sec, min 1.04 sec)
+[2023.11.03-01.08.06:704][582]LogShaderCompilers: Display: ================================================
