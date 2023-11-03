@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Pistol_PhysicsAsset.uasset",
+				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Pistol_Skeleton.uasset",
+				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Pistol_Anim_PistolArmature_Slide.uasset",
+				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Pistol_Anim_PistolArmature_Reload.uasset",
+				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Pistol_Anim_PistolArmature_Fire.uasset",
+				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Pistol.uasset",
+				"D:/Unreal projects/GG3/GGP/GGP_Monster/Content/Sandeep/Metal.uasset",
 				"C:/Users/D3514281/Documents/GitHub/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/D3514281/Documents/GitHub/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_ActiveItems/BP_UnlimitedStaminaPotion.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/55/2HG79G5RHWWJ8VT2N1ST1V.uasset",
