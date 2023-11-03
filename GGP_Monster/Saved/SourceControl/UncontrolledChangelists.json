@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"F:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Input/Actions/IA_Rpack.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Icons/Jetpack.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Icons/Jetpack_Sprite.uasset",
 				"D:/UnrealProjects/_Github/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/BP_PItem_Jetpack.uasset",
