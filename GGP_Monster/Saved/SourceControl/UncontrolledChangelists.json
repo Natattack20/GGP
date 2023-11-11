@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/KO/QBMZU65P6AVY3XUPI68GR5.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/PickupWeapon.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/PN/7OK44NZG4FYGKW6Z7FMSJZ.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/Hitboxes.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/Material.uasset",
+				"D:/Github Repos/GGP/GGP_Monster/Content/Sandeep/Material.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/MagicProjectilesVol2/Models/SM_BiPlanar01.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/MagicProjectilesVol2/Models/SM_Capsule01.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/MagicProjectilesVol2/Models/SM_Cone01.uasset",
@@ -54,7 +61,9 @@
 				"F:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/KO/QBMZU65P6AVY3XUPI68GR5.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/PickupWeapon.uasset",
-				"F:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/CL/USONEFZ9QXOK0PE4XVVU8U.uasset"
+				"F:/Github Repos/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/CL/USONEFZ9QXOK0PE4XVVU8U.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson2/Blueprints/BP_ThirdPersonCharacter2.uasset",
+				"F:/Github Repos/GGP/GGP_Monster/Content/ThirdPerson2/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
