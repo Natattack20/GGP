@@ -95,6 +95,7 @@
 				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/HZ/IMXCU2F8FX0D7MH14MWDEP.uasset",
 				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/7E/EVWJZQ89E73M0WB15L1LCZ.uasset",
 				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/ZN/BKVYPT30WZ6NGLE3TFCGDT.uasset",
+<<<<<<< Updated upstream
 =======
 				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/ZiyuanTest/RpackSlot.uasset",
 				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/_Yifan/ItemSystem/UI/WB_ItemInformation.uasset",
@@ -103,6 +104,25 @@
 				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Program Files/Epic Games/UE_5.2/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset",
 >>>>>>> UI
+=======
+				"F:/GGP/GGP_Monster/Content/_Yifan/ItemSystem/DT_PassiveItems.uasset",
+				"F:/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/BP_PassiveItem_DamageUp.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/NA/18LFDKSQ192VMJX0N0IZFW.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/8K/AF5SZJLX84BUYPR8QRBKPO.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/FX/GCHGK0O2MJBVCXONV0L465.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/X5/1FGRZS1GOT44ZX6UCK1NGU.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/E6/YD5UVRU42R7K7TYVASNXJP.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/T0/BVDGASGPK02RFHN3IES7VY.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/RP/QJXVB70ZSTNSAY5C5IW4XX.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/1H/SAU5GY2YW1UP1IW07WNAJN.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/GA/Q3RCYTJN9J8VOG173NV0ZP.uasset",
+				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/KH/HVQ0PIWAETEK52U4R9VTGJ.uasset",
+				"F:/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/BP_PItem_Fire_Sprite.uasset",
+				"F:/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/BP_PItem_Chill_Sprite.uasset",
+				"F:/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Icons/Blue_Flame_Cursor_Sprite.uasset",
+				"F:/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/Fire_Sprite/BP_Chill_Sprite.uasset",
+				"F:/GGP/GGP_Monster/Content/_Yifan/ItemSystem/_PassiveItems/Fire_Sprite/BP_Fire_Sprite.uasset",
+>>>>>>> Stashed changes
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Audios/DestroyBurst/Playful_Game_Explosion.uasset",
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Audios/OnPickUp/PassivePickUp.uasset",
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/DongTest/Map_Lab.umap",
