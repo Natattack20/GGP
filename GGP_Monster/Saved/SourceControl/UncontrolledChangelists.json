@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/ZiyuanTest/RpackSlot.uasset",
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/_Yifan/ItemSystem/UI/WB_ItemInformation.uasset",
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/Menu/HUD/WB_HUD.uasset",
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/Menu/HUD/WB_PausedWidget1.uasset",
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Program Files/Epic Games/UE_5.2/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset",
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Audios/DestroyBurst/Playful_Game_Explosion.uasset",
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Audios/OnPickUp/PassivePickUp.uasset",
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/DongTest/Map_Lab.umap",
