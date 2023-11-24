@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< HEAD
 				"F:/Github Repos/GGP/GGP_Monster/Content/MagicProjectilesVol2/Models/SM_BiPlanar01.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/MagicProjectilesVol2/Models/SM_Capsule01.uasset",
 				"F:/Github Repos/GGP/GGP_Monster/Content/MagicProjectilesVol2/Models/SM_Cone01.uasset",
@@ -94,6 +95,14 @@
 				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/HZ/IMXCU2F8FX0D7MH14MWDEP.uasset",
 				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/7E/EVWJZQ89E73M0WB15L1LCZ.uasset",
 				"F:/GGP/GGP_Monster/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/ZN/BKVYPT30WZ6NGLE3TFCGDT.uasset",
+=======
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/ZiyuanTest/RpackSlot.uasset",
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/_Yifan/ItemSystem/UI/WB_ItemInformation.uasset",
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/Menu/HUD/WB_HUD.uasset",
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/Menu/HUD/WB_PausedWidget1.uasset",
+				"C:/Users/A0093343/Documents/GitHub/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Program Files/Epic Games/UE_5.2/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset",
+>>>>>>> UI
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Audios/DestroyBurst/Playful_Game_Explosion.uasset",
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/_Yifan/ItemSystem/Audios/OnPickUp/PassivePickUp.uasset",
 				"D:/Learn/GIT/GGP_Location/GGP/GGP_Monster/Content/DongTest/Map_Lab.umap",
