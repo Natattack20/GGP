@@ -1799,3 +1799,39 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.05-22.29.07:849][698]AssetCheck: New page: Asset Save: multiple assets
 [2023.12.05-22.29.07:849][698]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bp_Magic.Bp_Magic
 [2023.12.05-22.29.07:849][698]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/VREditor/LaserPointer/LaserPointerMaterial.LaserPointerMaterial
+[2023.12.05-22.31.56:996][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.12.05-22.31.59:002][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.05-23.05.03:488][651]LogDerivedDataCache: C:/Users/super electro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:04:17.982 and deleted 3 files with total size 4 MiB and 3 empty folders. Scanned 148070 files in 116784 folders with total size 37619 MiB.
+[2023.12.05-23.12.50:010][244]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: ================================================
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: Total job queries 3,964, among them cache hits 91 (2.30%)
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: Tracking 3,871 distinct input hashes that result in 2,732 distinct outputs (70.58%)
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: RAM used: 66.66 MiB of 1.60 GiB budget. Usage: 4.07%
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: Shaders Compiled: 3,871
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: Jobs assigned 3,873, completed 3,871 (99.95%)
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: Average time worker was idle: 26.24 s
+[2023.12.05-23.12.51:468][375]LogShaderCompilers: Display: Time job spent in pending queue: average 100.42 s, longest 231.02 s
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Job execution time: average 5.87 s, max 16.95 s
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Job life time (pending + execution): average 106.35 s, max 237.88
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 295.99 s
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Jobs were issued in 648 batches (only local compilation was used), average 5.98 jobs/batch
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Average processing rate: 13.08 jobs/sec
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Total thread time: 2,421.64 s
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Total thread preprocess time: 75.457 s
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Percentage time preprocessing: 3.12%
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Effective parallelization: 8.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.98 sec, max 8.48 sec, min 2.00 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 4.28 sec, max 5.65 sec, min 2.09 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.77 sec, max 2.21 sec, min 1.05 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 1.62 sec, max 1.62 sec, min 1.62 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 1.49 sec, max 2.93 sec, min 1.18 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                                             FDeferredLightPS - 9.20% of total time (compiled  150 times, average 1.49 sec, max 2.93 sec, min 1.18 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.51% of total time (compiled   96 times, average 1.14 sec, max 1.78 sec, min 0.82 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.05% of total time (compiled  128 times, average 0.77 sec, max 1.24 sec, min 0.46 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 3.89% of total time (compiled  128 times, average 0.74 sec, max 1.07 sec, min 0.54 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.83% of total time (compiled   96 times, average 0.97 sec, max 1.36 sec, min 0.48 sec)
+[2023.12.05-23.12.51:469][375]LogShaderCompilers: Display: ================================================
