@@ -1175,3 +1175,44 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.07-14.41.27:825][236]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_P_Ice.BP_P_Ice
 [2023.12.07-14.41.27:825][236]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Fire_Projectile.Fire_Projectile
 [2023.12.07-14.41.27:825][236]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Lightning_Projectile.Lightning_Projectile
+[2023.12.07-14.42.15:513][445]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Sandeep/Projectiles/BP_P_Ice.BP_P_Ice
+[2023.12.07-14.42.15:514][445]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-14.42.15:514][445]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-14.42.17:626][677]LogViewport: Scene viewport resized to 929x766, mode Windowed.
+[2023.12.07-14.42.23:928][397]BlueprintLog: New page: Compile BP_P_Ice
+[2023.12.07-14.42.23:988][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.12.07-14.42.26:196][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.07-14.42.27:479][604]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.07-14.42.27:484][604]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.12.07-14.42.27:484][604]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-14.42.27:484][604]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-14.42.31:577][873]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Lightning_Projectile.Lightning_Projectile
+[2023.12.07-14.42.31:577][873]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-14.42.31:577][873]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-14.42.34:176][156]LogViewport: Scene viewport resized to 929x766, mode Windowed.
+[2023.12.07-14.42.38:730][686]BlueprintLog: New page: Compile Lightning_Projectile
+[2023.12.07-14.42.38:808][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.12.07-14.42.42:298][956]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Fire_Projectile.Fire_Projectile
+[2023.12.07-14.42.42:299][956]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.07-14.42.42:299][956]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.07-14.42.44:369][176]LogViewport: Scene viewport resized to 929x766, mode Windowed.
+[2023.12.07-14.42.53:326][224]BlueprintLog: New page: Compile Fire_Projectile
+[2023.12.07-14.42.53:406][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.07-14.42.55:156][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.12.07-14.42.56:072][367]LogSlate: Window 'Save Content' being destroyed
+[2023.12.07-14.42.56:081][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.07-14.42.56:165][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sandeep/Projectiles/BP_P_Ice" FILE="../../../../../../Project/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Ice.uasset" SILENT=true
+[2023.12.07-14.42.56:173][367]LogSavePackage: Moving output files for package: /Game/Sandeep/Projectiles/BP_P_Ice
+[2023.12.07-14.42.56:173][367]LogSavePackage: Moving '../../../../../../Project/GGP/GGP_Monster/Saved/BP_P_IceEF3203314422CCB6213C3AAEA03300D2.tmp' to '../../../../../../Project/GGP/GGP_Monster/Content/Sandeep/Projectiles/BP_P_Ice.uasset'
+[2023.12.07-14.42.56:175][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Fire_Projectile" FILE="../../../../../../Project/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/Fire_Projectile.uasset" SILENT=true
+[2023.12.07-14.42.56:181][367]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Fire_Projectile
+[2023.12.07-14.42.56:182][367]LogSavePackage: Moving '../../../../../../Project/GGP/GGP_Monster/Saved/Fire_Projectile268E9DEB44DABCDAEA75118E048BF44E.tmp' to '../../../../../../Project/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/Fire_Projectile.uasset'
+[2023.12.07-14.42.56:183][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Lightning_Projectile" FILE="../../../../../../Project/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/Lightning_Projectile.uasset" SILENT=true
+[2023.12.07-14.42.56:190][367]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Lightning_Projectile
+[2023.12.07-14.42.56:191][367]LogSavePackage: Moving '../../../../../../Project/GGP/GGP_Monster/Saved/Lightning_Projectile00C9F7F34AD4A85FE804C3A014FB4F6E.tmp' to '../../../../../../Project/GGP/GGP_Monster/Content/ThirdPerson/Blueprints/Lightning_Projectile.uasset'
+[2023.12.07-14.42.56:196][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 229 ms)
+[2023.12.07-14.42.56:203][367]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.07-14.42.56:203][367]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_P_Ice.BP_P_Ice
+[2023.12.07-14.42.56:203][367]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Fire_Projectile.Fire_Projectile
+[2023.12.07-14.42.56:203][367]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Lightning_Projectile.Lightning_Projectile
+[2023.12.07-14.43.02:382][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
