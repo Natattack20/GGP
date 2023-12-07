@@ -4404,3 +4404,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.07-14.01.22:033][369]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_Base_P.BP_Base_P
 [2023.12.07-14.01.22:033][369]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
 [2023.12.07-14.01.22:033][369]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Sandeep/Projectiles/BP_P_Ice.BP_P_Ice
+[2023.12.07-14.02.07:444][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
